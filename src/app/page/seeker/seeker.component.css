@@ -111,4 +111,11 @@ button:hover {
   .row:first-child {
     margin-top: 10px; /* Reduce aún más el margen superior en dispositivos móviles */
   }
+
+.form-group{
+  width: 100%;
+}
+.form-container{
+width: 100%;
+}
 }

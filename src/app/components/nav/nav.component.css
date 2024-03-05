@@ -36,6 +36,9 @@
 .navbar-nav a:hover {
   color: rgb(38, 38, 38);
 }
+a .active{
+  color: rgb(38, 38, 38);
+}
 
 /* Estilo del enlace de navegación activo (página actual) */
 .navbar-nav .active {
