@@ -1,3 +1,4 @@
+@import 'https://unpkg.com/leaflet@1.7.1/dist/leaflet.css';
 /* Estilo para el contenedor principal */
 .container {
   background-color: rgb(83, 92, 102);
