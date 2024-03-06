@@ -13,7 +13,7 @@ import { Console } from 'console';
   providedIn: 'root',
 })
 export class ClassService {
-  private apiUrl = 'http://localhost:8080/classrooms';
+  private apiUrl = 'https://tutorialhubbackend.onrender.com/classrooms';  
   mapService: any;
 
   constructor(private http: HttpClient) { }

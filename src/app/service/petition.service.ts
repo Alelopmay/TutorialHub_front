@@ -16,7 +16,7 @@ export class PetitionService {
   getUserById(userId: number): import("../model/client").client | undefined {
     throw new Error('Method not implemented.');
   }
-  private apiUrl = 'http://localhost:8080'; // Corrige la URL base aquí
+  private apiUrl = 'https://tutorialhubbackend.onrender.com'; // Corrige la URL base aquí
 
   constructor(private http: HttpClient) { }
 /**

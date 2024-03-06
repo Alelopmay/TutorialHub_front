@@ -11,7 +11,7 @@ import * as bcrypt from 'bcryptjs';
   providedIn: 'root',
 })
 export class TeacherService {
-  private apiUrl = 'http://localhost:8080';
+  private apiUrl = 'https://tutorialhubbackend.onrender.com';
   private currentTeacher: teacher | null = null;
   teacherProfileUpdatedSubject: Subject<teacher | null> = new Subject<teacher | null>();
 

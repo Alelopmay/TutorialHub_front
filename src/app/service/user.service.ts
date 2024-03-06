@@ -10,7 +10,7 @@ import { LoginComponent } from '../page/login/login.component';
   providedIn: 'root',
 })
 export class UserService {
-  private apiUrl = 'http://localhost:8080';
+  private apiUrl = 'https://tutorialhubbackend.onrender.com';
   private currentUserId: number | null = null;
   constructor(private http: HttpClient) { }
 /**

@@ -7,7 +7,7 @@ import { Assessment } from '../model/assessment'; // Corregir la importación
   providedIn: 'root'
 })
 export class AssessmentService {
-  private apiUrl = 'http://localhost:8080/assessments';
+  private apiUrl = 'https://tutorialhubbackend.onrender.com/assessments';
 
   constructor(private http: HttpClient) { }
 /**
